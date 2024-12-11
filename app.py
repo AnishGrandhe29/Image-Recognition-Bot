@@ -6,7 +6,7 @@ import PIL.Image
 app = Flask(__name__)
 
 # Pass the API key directly
-genai.configure(api_key="AIzaSyANios8N9yRTtlCF8XjfI31GhLErJrAQ3Y")
+genai.configure(api_key="Use your api here- gemini flash 5.1")
 
 UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
